@@ -38,11 +38,6 @@ Route::get('/about', function () {
     ]);
 });
 
-Route::get('/pesanKost', function () {
-    return view('pesanKost', [
-        
-    ]);
-});
 
 
 Route::get('/blog', [PostController::class, 'index'] );
