@@ -1,0 +1,1 @@
+alert("Selamat datang di web Kost Bu Sapto")
